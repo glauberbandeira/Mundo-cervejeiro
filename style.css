@@ -1,0 +1,163 @@
+/* Fonte */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+
+/* header */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  height: 80px;
+  /* background-color: antiquewhite; */
+}
+header img {
+  width: 80px;
+}
+.menu-header ul {
+  display: flex;
+  gap: 20px
+  ;
+}
+.menu-header ul li {
+  list-style: none;
+}
+.menu-header ul li a {
+  display: inline-block;
+  font-weight: 400;
+  color: #000;
+}
+
+/* Slide product */
+.slide-products {
+  position: relative;
+  height: 80px;
+}
+.slide {
+  display: flex;
+  justify-content: center;
+}
+.slide ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.slide ul li:hover {
+  transform: translateY(-15px);
+}
+.slide ul li img {
+  max-width: 80px;
+}
+/* Content */
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+
+}
+.content .text {
+  max-width: 600px;
+  text-align: center;
+  align-self: center;
+}
+.content .logo-img {
+  max-width: 100%;
+}
+.content .logo-img img {
+  width: 100%;
+}
+.content .text h1 {
+  text-transform: uppercase;
+}
+.content .text h3,
+.content .text p {
+  line-height: 2.0;
+}
+/* Products */
+#becks {
+  display: none;
+}
+.becks {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+.product-text h2 {
+  font-size: 4rem;
+}
+.product-text .ingredientes{
+  margin-left: 30px;
+}
+
+/* Grid produtos */
+.grid-products {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+.product-text h2 {
+  font-size: 4rem;
+}
+.product-text .ingredientes{
+  margin-left: 30px;
+}
+
+/* Budweiser */
+#budweiser {
+  display: none;
+}
+
+/* Corona */
+#corona {
+  display: none;
+}
+
+/* Heiniken */
+#heineken {
+  display: none;
+}
+
+/* Patagonia */
+#patagonia {
+  display: none;
+}
+
+/* Patagonia */
+#sol {
+  display: none;
+}
+
+/* Patagonia */
+#stella {
+  display: none;
+}
